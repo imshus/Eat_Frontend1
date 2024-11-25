@@ -7,7 +7,7 @@ export const StoreContext = createContext(null);
 
 
 const StoreContextProvider = (props) => {
-    const url="http://localhost:4000"
+    const url="https://eat-backend-oa1ci4w3o-imshus-projects.vercel.app"
 
     
     const [food_list, setFoodList] = useState([]);
